@@ -8,7 +8,7 @@ def exercice(valeurs):
     liste_nombres = [int(n) for n in liste_nombres]
     resultat = 0
     for n in liste_nombres:
-        resultat = resultat + n
+        resultat = resultat + n  #comm
     return str(resultat)
 
 if __name__ == '__main__':
